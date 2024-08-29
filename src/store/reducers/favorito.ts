@@ -17,7 +17,7 @@ const favoritoSlice = createSlice({
     favoritar: (state, action: PayloadAction<Produto>) => {
       const itemFav = action.payload
 
-      if (state.itens.find((produto) => produto.id === itemFav.id)) {
+      if (state.itens.find((f) => f.id === itemFav.id)) {
         state.itens = state.itens.filter((item) => item.id !== itemFav.id)
       } else {
         state.itens = [...state.itens, itemFav]

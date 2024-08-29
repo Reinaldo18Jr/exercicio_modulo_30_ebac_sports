@@ -1,4 +1,3 @@
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { Produto as ProdutoType } from '../App'
 import Produto from '../components/Produto'
 import { useGetItensQuery } from '../services/api'
