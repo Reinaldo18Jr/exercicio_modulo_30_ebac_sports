@@ -8,7 +8,7 @@ const api = createApi({
   }),
   endpoints: (builder) => ({
     getItens: builder.query<Produto[], void>({
-      query: () => '/api/ebac_sports'
+      query: () => 'api/ebac_sports'
     })
   })
 })
